@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kommende arrangementer for Tornmarksvejs Beboerforening.">
+  <title>Arrangementer – Tornmarksvejs Beboerforening</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Tornmarksvejs Beboerforening">
+      <img class="brand-mark" src="images/logo-icon.png" alt="Tornmarksvejs Beboerforening logo">
+      <span><strong>Tornmarksvejs</strong><small>Beboerforening</small></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Hovedmenu">
+      <a href="index.html">Forside</a>
+      <a href="arrangementer.html" class="active">Arrangementer</a>
+      <a href="dokumenter.html">Dokumenter</a>
+      <a href="bestyrelsen.html">Bestyrelsen</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-content">
+        <h1>Arrangementer</h1>
+      </div>
+    </section>
+
+    <section class="section section-warm">
+      <div id="arrangementer-content" class="notice-board"></div>
+    </section>
+
+    <section id="kontakt" class="section section-contact">
+      <div class="contact-card">
+        <h2>Kontakt</h2>
+        <a id="contact-mail" class="mail-link" href="mailto:tornmarkubberud@gmail.com">tornmarkubberud@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Tornmarksvejs Beboerforening</p>
+  </footer>
+
+  <script src="data/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
